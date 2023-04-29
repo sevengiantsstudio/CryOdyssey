@@ -1,0 +1,84 @@
+{
+    "console_commands": {},
+    "console_variables": {
+        "ai_DebugDraw": "0",
+        "ai_DrawPathFollower": "0",
+        "ai_ModularBehaviorTreeDebugTree": "0",
+        "e_VolumetricFog": "0",
+        "g_language": "russian",
+        "r_AntialiasingMode": "3",
+        "r_AntialiasingModeEditor": "3",
+        "r_Fullscreen": "1",
+        "r_HDREyeAdaptationMode": "1",
+        "r_Height": "1080",
+        "r_ShadowsScreenSpace": "1",
+        "r_VolumetricClouds": "0",
+        "r_Width": "1920",
+        "r_displayInfo": "0",
+        "r_ssdo": "1",
+        "r_vsync": "0",
+        "s_ImplName": "CryAudioImplFmod",
+        "sys_asserts": "0",
+        "sys_maxFPS": "60",
+        "sys_spec": "4"
+    },
+    "content": {
+        "assets": [
+            "Assets"
+        ],
+        "code": [
+            "Code"
+        ],
+        "libs": [
+            {
+                "name": "CryOdyssey",
+                "shared": {
+                    "any": "",
+                    "win_x64": "",
+                    "win_x86": ""
+                }
+            }
+        ]
+    },
+    "info": {
+        "guid": "cf957e42-2f59-03e6-d8cf-b05b3f1ee378",
+        "name": "Orion: The Odyssey"
+    },
+    "require": {
+        "engine": "engine-5.7-sg",
+        "plugins": [
+            {
+                "guid": "",
+                "path": "CryDefaultEntities",
+                "type": "EType::Native"
+            },
+            {
+                "guid": "",
+                "path": "CrySensorSystem",
+                "type": "EPluginType::Native"
+            },
+            {
+                "guid": "",
+                "path": "CryScaleform",
+                "type": "EType::Native"
+            },
+            {
+                "guid": "",
+                "path": "CryScaleformSchematyc",
+                "type": "EType::Native"
+            },
+            {
+                "guid": "",
+                "path": "CryPerceptionSystem",
+                "type": "EPluginType::Native"
+            },
+            {
+                "guid": "",
+                "path": "bin/win_x64/Game.dll",
+                "type": "EType::Native"
+            }
+        ]
+    },
+    "type": "",
+    "version": 4
+}
